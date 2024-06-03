@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail_joy", "template_joy", e.target, "oaiDMlLuueB5VjPQK")
+      .sendForm("service_ladqd9n", "template_xp51rwu", e.target, "tijcqNw3XOd1cXY6Q")
       .then(
         (result) => {
           console.log(result.text);
@@ -20,6 +20,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    alert("Sent successfully")
   };
   return (
     <div className="pt-24 px-4 md:px-12">
@@ -28,6 +29,7 @@ const Contact = () => {
         <div className="form-group mb-6">
           <input
             type="text"
+            name="name"
             className="form-control block w-full px-3 py-1.5 text-base font-normal  text-gray-700  bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-slate-600 focus:outline-none"
             id="exampleInput7"
             placeholder="Name"
@@ -37,6 +39,7 @@ const Contact = () => {
         <div className="form-group mb-6">
           <input
             type="email"
+            name="email"
             className="form-control block w-full px-3 py-1.5 text-base font-normal  text-gray-700  bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-slate-600 focus:outline-none"
             id="exampleInput8"
             placeholder="Email address"
@@ -49,6 +52,7 @@ const Contact = () => {
             id="exampleFormControlTextarea13"
             rows="3"
             placeholder="Message"
+            name="message"
             required
           ></textarea>
         </div>
@@ -68,9 +72,9 @@ const Contact = () => {
       </div>
 
       <div className="flex gap-2 md:gap-4 justify-center items-center pt-4">
-        <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+        <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
-            class="rounded-md transition-all duration-300 group-hover:scale-110"
+            className="rounded-md transition-all duration-300 group-hover:scale-110"
             width="56"
             height="56"
             viewBox="0 0 72 72"
@@ -102,13 +106,13 @@ const Contact = () => {
         <h2>sujangarhpetcare@gmail.com</h2>
       </div>
 
-      <div class="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
+      <div className="bg-white w-full h-auto py-8 flex items-center justify-center gap-4 flex-wrap">
         <a
           href="https://www.instagram.com/sujangarh_pet_care.rj44?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-          class="w-10 h-10 flex items-center justify-center group rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300"
+          className="w-10 h-10 flex items-center justify-center group rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300"
         >
           <svg
-            class="transition-all duration-300 group-hover:scale-110"
+            className="transition-all duration-300 group-hover:scale-110"
             width="56"
             height="56"
             viewBox="0 0 72 72"
@@ -132,8 +136,8 @@ const Contact = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(17.4144 61.017) scale(65.31 65.2708)"
               >
-                <stop offset="0.09" stop-color="#FA8F21" />
-                <stop offset="0.78" stop-color="#D82D7E" />
+                <stop offset="0.09" stopColor="#FA8F21" />
+                <stop offset="0.78" stopColor="#D82D7E" />
               </radialGradient>
               <radialGradient
                 id="paint1_radial_7092_54471"
@@ -143,8 +147,8 @@ const Contact = () => {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(41.1086 63.257) scale(51.4733 51.4424)"
               >
-                <stop offset="0.64" stop-color="#8C3AAA" stop-opacity="0" />
-                <stop offset="1" stop-color="#8C3AAA" />
+                <stop offset="0.64" stopColor="#8C3AAA" stopOpacity="0" />
+                <stop offset="1" stopColor="#8C3AAA" />
               </radialGradient>
             </defs>
           </svg>
@@ -152,10 +156,10 @@ const Contact = () => {
 
         <a
           href="https://www.youtube.com/@Doctorforanimal"
-          class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300"
+          className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300"
         >
           <svg
-            class="rounded-md transition-all duration-300 group-hover:scale-110"
+            className="rounded-md transition-all duration-300 group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
             width="56"
             height="56"
@@ -173,9 +177,9 @@ const Contact = () => {
           </svg>
         </a>
 
-        <button class="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
+        <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
           <svg
-            class="transition-all duration-300 group-hover:scale-110"
+            className="transition-all duration-300 group-hover:scale-110"
             xmlns="http://www.w3.org/2000/svg"
             width="56"
             height="56"
