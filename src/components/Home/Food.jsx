@@ -8,7 +8,7 @@ import { accessoryData } from "../../data/products/food/accessoryData";
 
 const Food = () => {
   return (
-    <div className="w-full px-4 md:px-28 overflow-hidden">
+    <div className="w-full px-4 md:px-12 overflow-hidden">
       <div>
         <Heading title="Top Pics: Best Dog Food & Treats" />
         <motion.div
