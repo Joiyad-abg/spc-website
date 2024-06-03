@@ -165,7 +165,7 @@ const Footer = () => {
                 Location
               </h2>
               <div className="m-auto rounded-[150px] overflow-hidden w-fit">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1691742330822!2d74.46648757539153!3d27.712062476179867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396b33a57b0a935f%3A0x29a9dcda5dd2f239!2sSujangarh%20Pet%20Care!5e0!3m2!1sen!2sin!4v1717399291421!5m2!1sen!2sin" width="200" height="200" style={{border:0}} loading="lazy"></iframe>
+              <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1691742330822!2d74.46648757539153!3d27.712062476179867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396b33a57b0a935f%3A0x29a9dcda5dd2f239!2sSujangarh%20Pet%20Care!5e0!3m2!1sen!2sin!4v1717399291421!5m2!1sen!2sin" width="200" height="200" style={{border:0}} loading="lazy"></iframe>
               </div>
             </div>
           </div>
