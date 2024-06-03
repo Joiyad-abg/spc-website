@@ -15,7 +15,7 @@ const Food = () => {
           initial={{ opacity: 0, y: 100 }}
           transition={{ ease: "easeOut", duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="p-2 md:p-4 flex flex-wrap justify-center md:justify-start items-center gap-4 md:gap-6"
+          className="p-2 md:p-4 flex flex-wrap justify-center items-center gap-4 md:gap-6"
         >
           {foodData.map(({ id, imageUrl, description }) => (
             <FoodCard key={id} imageUrl={imageUrl} description={description} />
@@ -36,7 +36,7 @@ const Food = () => {
           initial={{ opacity: 0, y: 100 }}
           transition={{ ease: "easeOut", duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="p-2 md:p-4 flex flex-wrap justify-center md:justify-start items-center gap-4 md:gap-6"
+          className="p-2 md:p-4 flex flex-wrap justify-center items-center gap-4 md:gap-6"
         >
           {catFoodData.map(({ id, imageUrl, description }) => (
             <FoodCard key={id} imageUrl={imageUrl} description={description} />
@@ -57,7 +57,7 @@ const Food = () => {
           initial={{ opacity: 0, y: 100 }}
           transition={{ ease: "easeOut", duration: 2 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="p-2 md:p-4 flex flex-wrap justify-center md:justify-start items-center gap-4 md:gap-6"
+          className="p-2 md:p-4 flex flex-wrap justify-center items-center gap-4 md:gap-6"
         >
           {accessoryData.map(({ id, imageUrl, description }) => (
             <FoodCard key={id} imageUrl={imageUrl} description={description} />
