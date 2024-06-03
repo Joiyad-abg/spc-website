@@ -12,11 +12,11 @@ export const foodData = [
     {
         id: 3,
         imageUrl:'https://res.cloudinary.com/dvjbswt50/image/upload/v1717390007/spc/shopping_6_pvv6uf.webp',
-        description: 'Pedigree Puppy Dog Food With Chicken & Milk 3 Kg Pack & 10 Kg',
+        description: 'Pedigree Puppy Dog Food With Chicken & Milk 3 Kg',
     },
     {
         id: 4,
         imageUrl:'https://res.cloudinary.com/dvjbswt50/image/upload/v1717389779/spc/shopping_4_xovqdr.webp',
-        description: 'Pedigree PRO Expert Nutrition Active Adult Dry Dog Food, 3Kg',
+        description: 'Pedigree PRO Expert Nutrition Active Adult Dry Dog Food',
     },
 ];

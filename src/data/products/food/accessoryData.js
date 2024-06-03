@@ -2,7 +2,7 @@ export const accessoryData = [
     {
         id: 1,
         imageUrl:'https://res.cloudinary.com/dvjbswt50/image/upload/v1717398550/spc/shopping_13_yrskbj.webp',
-        description: 'Nylon Plain Dog Collar - 1.5inch',
+        description: 'Nylon Plain Dog Collar',
     },
     {
         id: 2,
@@ -17,6 +17,6 @@ export const accessoryData = [
     {
         id: 4,
         imageUrl:'https://res.cloudinary.com/dvjbswt50/image/upload/v1717398515/spc/shopping_11_xasus5.webp',
-        description: 'Pets Way Solid Color Dog Collar',
+        description: 'Pets Way Solid Color Collar',
     },
 ];
