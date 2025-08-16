@@ -4,7 +4,7 @@ import {cardsData} from '../../data/cards/cardsData'
 
 const Front = () => {
   return (
-    <div className="bg-white px-4 md:px-8 pt-32 md:pt-48">
+    <div className="bg-white px-4 md:px-8 pt-8 md:pt-16">
       <AutoCarousel cardsData={cardsData} interval={10000} />
     </div>
   );
